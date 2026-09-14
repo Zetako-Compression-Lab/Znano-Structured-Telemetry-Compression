@@ -108,7 +108,7 @@ The current integration contract adds **one byte of stream overhead** when scram
 
 ZNano's public documentation deliberately distinguishes between **measured**, **calculated**, and **estimated / target-dependent** metrics.
 
-- Seven structured rerun rows report a decoded SHA-256 mismatch. Their compression figures are preserved for engineering investigation but are **excluded from strong public lossless claims** until the expanded rerun replaces the historical evidence set.
+- Historical validation artifacts containing failed rows are retained in the engineering documentation and are **excluded from current verified public claims**. The headline results in this README use only the SHA-verified passing evidence set.
 - Incompressible pseudo-random payloads round-trip correctly in the fresh rerun but can **expand**. Applications that require a strict “never larger than input” transport guarantee need an explicit wrapper/bypass policy.
 - Host CLI timing is **not** MCU runtime performance.
 - Host RSS delta is **not** direct MCU RAM measurement.
