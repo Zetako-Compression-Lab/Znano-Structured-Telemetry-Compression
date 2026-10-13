@@ -24,6 +24,14 @@ Fresh host reruns were executed on **Darwin 25.5.0 arm64**, with **30 measured r
 
 > **Benchmark refresh in progress:** the current public figures above are preserved from the last completed rerun until the expanded matrix and current binary are fully re-measured. New integration capabilities documented below are not used to rewrite historical benchmark values.
 
+## ESP32-C3 / QEMU embedded benchmark (October 2026)
+
+In a controlled ESP-IDF / QEMU experiment on **six synthetic structured-telemetry workloads**, ZNano completed **270/270 exact round trips** and reached **76.79% byte reduction** on the tested regular-industrial 256-record batch. The linked encoder + decoder contributed **3,757 B of flash** and requested **zero dynamic memory allocations** in this test.
+
+These are **emulated-target, workload-specific results**, not physical-board timing, energy, Wi-Fi/BLE, or customer-data-average claims. The supporting raw evidence package is not yet published in this repository.
+
+**[Read the full ESP32-C3 benchmark report →](docs/ESP32C3_QEMU_REPORT.md)**
+
 ## Benchmark visuals
 
 ### Verified structured reduction by device
