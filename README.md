@@ -32,6 +32,14 @@ These are **emulated-target, workload-specific results**, not physical-board tim
 
 **[Read the full ESP32-C3 benchmark report →](docs/ESP32C3_QEMU_REPORT.md)**
 
+## FPGA research — October 2026
+
+ZNano is also being evaluated as a **hardware-oriented lossless telemetry encoder**. In October 2026, RTL simulation matched the C reference on **156 application transactions** with zero failures. The **17 original telemetry batches** compressed from **22,132 to 6,052 bytes** (72.65% weighted reduction on this supplied set). Exploratory Yosys mappings were completed for **Artix-7 and Gowin GW2A**.
+
+These are **pre-hardware engineering results**: no FPGA board execution, timing closure, Fmax, or power measurements are claimed. The hardware decoder is not yet implemented in RTL.
+
+**[Read the ZNano FPGA engineering report →](docs/FPGA_PREHARDWARE_2026-10-15.md)**
+
 ## Benchmark visuals
 
 ### Verified structured reduction by device
