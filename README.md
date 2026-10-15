@@ -40,6 +40,14 @@ These are **pre-hardware engineering results**: no FPGA board execution, timing 
 
 **[Read the ZNano FPGA engineering report →](docs/FPGA_PREHARDWARE_2026-10-15.md)**
 
+## Configurable FPGA encoder — October 2026 update
+
+The latest pre-hardware evaluation includes a **4 KiB compact encoder** (versus 32 KiB general frame memory), **11.66% fewer simulated cycles** across the 17 original telemetry lots, and **74,412 passing simulation transactions** across six configurations. The measured compression on those lots remains **72.65% weighted reduction**, with identical encoded outputs in the executed regressions.
+
+Exploratory Artix-7 and Gowin mappings show **87.5% fewer frame-memory blocks** for the compact configuration. These results do **not** establish physical clock speed, power, or board readiness; some formal verification jobs remain incomplete due to solver timeouts.
+
+**[Read the configurable FPGA encoder evaluation →](docs/FPGA_CONFIGURABLE_ENCODER_2026-10-15.md)**
+
 ## Benchmark visuals
 
 ### Verified structured reduction by device
