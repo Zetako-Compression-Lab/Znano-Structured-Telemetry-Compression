@@ -56,6 +56,14 @@ The proofs are **scope-limited**, not universal end-to-end equivalence. Some bro
 
 **[Read the formal verification update →](docs/FPGA_FORMAL_VERIFICATION_2026-10-15.md)**
 
+## FPGA formal verification on real telemetry frames — October 2026
+
+A new pre-hardware campaign extends scoped formal verification to **all five supplied telemetry message-width profiles** and frames of **6–40 messages**. **144/144 selected positive proof jobs passed** (68 unbounded safety jobs and 76 bounded local lemmas), alongside **3,150 passing RTL simulation transactions** on 175 real-data prefixes. Compact-fast required **11.218% fewer simulated cycles** than reference RTL on the 175 continuous-traffic cases, with identical encoded output.
+
+The contracts are compositional and scope-limited; an integrated classification proof still times out, and no top-level C-to-RTL equivalence theorem or physical FPGA performance is claimed.
+
+**[Read the real-telemetry formal verification report →](docs/FPGA_REAL_TELEMETRY_FORMAL_2026-10-15.md)**
+
 ## Benchmark visuals
 
 ### Verified structured reduction by device
