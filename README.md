@@ -48,6 +48,14 @@ Exploratory Artix-7 and Gowin mappings show **87.5% fewer frame-memory blocks** 
 
 **[Read the configurable FPGA encoder evaluation →](docs/FPGA_CONFIGURABLE_ENCODER_2026-10-15.md)**
 
+## FPGA formal verification — October 2026
+
+The configurable ZNano FPGA encoder has completed a decomposed formal campaign with **174/174 positive proof jobs passing**: **132 unbounded safety proofs** and **42 bounded transaction partitions**. Two intentionally faulty controls produced expected counterexamples. A fresh **936-transaction simulation replay** matched retained results; the prior 74,412-transaction regression remains separate evidence.
+
+The proofs are **scope-limited**, not universal end-to-end equivalence. Some broader obligations remain open, and no physical FPGA timing, power, or board measurements are claimed.
+
+**[Read the formal verification update →](docs/FPGA_FORMAL_VERIFICATION_2026-10-15.md)**
+
 ## Benchmark visuals
 
 ### Verified structured reduction by device
